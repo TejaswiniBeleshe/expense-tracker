@@ -32,7 +32,7 @@
         height: 100%;
     }
 } */
-@media (max-width:550px){
+@media (max-width:475px){
     .balance{
         width: 100%;
         min-height: 40%;

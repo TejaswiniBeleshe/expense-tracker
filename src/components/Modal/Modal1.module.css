@@ -67,7 +67,7 @@
     outline: none;
 }
 
-@media (max-width:550px){
+@media (max-width:475px){
   .form{
     flex-direction: column;
     gap: 2rem;

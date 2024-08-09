@@ -24,7 +24,7 @@
     border: 1px solid orange;
 }
 
-@media (max-width:550px){
+@media (max-width:475px){
     .top{
         min-height: 60%;
         width: 100%;

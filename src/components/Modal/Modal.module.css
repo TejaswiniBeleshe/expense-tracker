@@ -63,7 +63,7 @@
     box-shadow: 0 0 10px rgba(133, 136, 136, 0.5);
 }
 
-@media (max-width:550px){
+@media (max-width:475px){
   .modalContainer{
     position: fixed;
     top: 50%;
