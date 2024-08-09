@@ -1,12 +1,13 @@
 .App {
-  border: .5px solid red;
+  /* border: .5px solid red; */
   height: 97vh;
   width: 100%;
   padding: 0 1rem;
 }
-h1{
+#h1{
   color: #FFFFFF;
   margin-top: 0;
+  letter-spacing: .2rem;
 }
  @media (max-width:950px) {
   .App{

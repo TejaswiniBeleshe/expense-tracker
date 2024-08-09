@@ -1,5 +1,5 @@
 .balance{
-    border: 1px solid rgb(72, 231, 72);
+    /* border: 1px solid rgb(72, 231, 72); */
     width:45%;
     height: 100%;
     background-color: #9B9B9B;
@@ -23,7 +23,7 @@
     color: #FFFFFF;
 }
 #showrate{
-    color: #F4BB4A;
+    color: #B5DC52;
 
 }
 /* @media (max-width:950px){

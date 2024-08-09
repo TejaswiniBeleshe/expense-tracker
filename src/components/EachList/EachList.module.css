@@ -1,7 +1,7 @@
 .childContainer{
     width:100%;
     height: 25%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -12,7 +12,7 @@
 .child1{
     width: 35%;
     height: 100%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 
 
     display: flex;
@@ -24,11 +24,12 @@
 .child2{
     width: 25%;
     max-height: 100%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 
 
 }
@@ -38,7 +39,7 @@
     width: 17%;
     border-radius: 50%;
     padding-top:.7rem;
-    border:1px solid blue;
+    /* border:1px solid blue; */
     text-align: center;
     background-color: rgb(233, 227, 227);
 
@@ -46,7 +47,7 @@
 .info{
     width: 50%;
     height: 75%;
-   border: 1px solid rebeccapurple;
+   /* border: 1px solid rebeccapurple; */
     display: flex;
     
     flex-direction: column;
@@ -56,8 +57,11 @@
 }
 .spent{
     width: 30%;
-    border: 1px solid pink;
-    height: 100%;
+    /* border: 1px solid pink; */
+    height: 50%;
+   color: #F4BB4A;
+   text-align: center;
+   margin-top: 1rem;
 }
 .edit{
     height: 50%;
@@ -81,4 +85,17 @@
     /* border:1px solid #eec90fc1; */
     box-shadow: 0 0 10px rgba(0,0,5,.5);
     background-color:  #e8cc14d4;
+}
+
+@media(max-width:475px){
+    .child1{
+        width:48%;
+    }
+    .child2{
+        width:48%;
+    }
+    .icon{
+        width:23%;
+    }
+
 }

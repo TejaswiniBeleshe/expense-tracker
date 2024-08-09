@@ -42,7 +42,7 @@ export default function Piechart() {
   let {categories} = useContext(context);
   return (
     <PieChart  width={300} height={200} margin={{ top:-95, right: 5, bottom: 0, left: -30}} >
-      <Legend />
+      <Legend/>
       <Pie
         data={categories}
         cx={200}

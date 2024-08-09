@@ -37,24 +37,24 @@ export default function Barchart() {
   let {catPrice} = useContext(context)
   return (
     <BarChart
-      width={500}
-      height={300}
+      width={417}
+      height={250}
      
       data={catPrice}
       layout="vertical"
-      margin={{
-        top: 5,
-        right: 30,
-        left: 20,
-        bottom: 5,
-      }}
+      // margin={{
+      //   top: 5,
+      //   right: 30,
+      //   left: 20,
+      //   bottom: 5,
+      // }}
       barSize={20}
     >
       <XAxis
         type="number"
         axisLine={false}
         display="none"
-        padding={{ left: 10, right: 10 }}
+        padding={{ left:5, right: 5}}
       />
       <YAxis type="category" width={100} dataKey="name" axisLine ={false}/>
       <Bar dataKey="amt" fill="#8884d8"  />

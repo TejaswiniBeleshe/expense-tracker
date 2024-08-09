@@ -39,12 +39,12 @@ const EachList = ({ele,setListId,setAllData})=>{
                 </div>
                 <div className={styles.info}>
                     <span>{ele.title}</span>
-                    <span>{ele.date}</span>
+                    <span style={{color:"#9B9B9B"}}>{ele.date}</span>
                 </div>
             </div>
             <div className={styles.child2}>
                 <div className={styles.spent}>
-                    {ele.price}
+                &#x20B9;{ele.price}
                 </div>
                 <div className={styles.edit} onClick={()=>handle(ele.id)}>
                     <FiEdit2 size={35} style={{color:"whitesmoke"}}/>
