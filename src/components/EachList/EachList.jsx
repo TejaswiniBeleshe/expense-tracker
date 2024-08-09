@@ -55,7 +55,7 @@ const EachList = ({ele,setListId,setAllData})=>{
             </div>
         </div>
         <hr />
-        {state&&<Modal handle={handle} itemId={ele.id} />}
+        {state&&<Modal handle={handle} itemId={ele.id} headline="Edit Expenses" />}
         </>
     )
 }

@@ -13,7 +13,7 @@ const Expense = ()=>{
         <div className={styles.expense}>
           <p className={styles.showtxt}>Expense:<span id={styles.showrate}>&#x20B9;{totalExpense}</span></p>
           <button className={styles.expenseBtn} onClick={()=>handle()}>+ Add expense</button>
-          {state&&<Modal handle={handle} newData={newData} setNewData={setNewData}/>}
+          {state&&<Modal handle={handle} newData={newData} setNewData={setNewData} headline="Add Expenses"/>}
         </div>
     )
 

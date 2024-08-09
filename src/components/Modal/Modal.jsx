@@ -3,7 +3,7 @@ import { createPortal } from "react-dom"
 import styles from "../Modal/Modal.module.css";
 import Input from "../Input/Input";
 import { context } from "../Main/Main";
-const Modal = ({handle,newData,setNewData,itemId=""})=>{
+const Modal = ({handle,newData,setNewData,itemId="",headline})=>{
     const {allData,setAllData,setTotalExpense,totalExpense,balance,setBalance} = useContext(context);
     const [inputs,setInputs] = useState({title:"",price:"",date:"",category:""});
     useEffect(()=>{
@@ -86,7 +86,7 @@ const Modal = ({handle,newData,setNewData,itemId=""})=>{
         <>
         <div className={styles.modalWrapper} onClick={handle}></div>
             <div className={styles.modalContainer}>
-              <h1>Add Expenses</h1>
+              <h1>{headline}</h1>
               <form className={styles.form} onSubmit={(e)=>handleInfo(e,itemId)}> 
                 <Input placeholder="Title" inputs={inputs} setInputs={setInputs} id="title" name="title"/>
                 <Input placeholder="Price" inputs={inputs} setInputs={setInputs} id="price" name="price" type="number"/>
