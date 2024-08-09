@@ -1,6 +1,6 @@
 .App {
-  /* border: .5px solid red; */
-  height: 90vh;
+  border: .5px solid red;
+  height: 97vh;
   width: 100%;
   padding: 0 1rem;
 }
@@ -8,10 +8,23 @@ h1{
   color: #FFFFFF;
   margin-top: 0;
 }
-
+ @media (max-width:950px) {
+  .App{
+    width:100%;
+  }
+  
+ }
 @media (max-width:550px){
   .App{
-    width:115% ;
-    min-height: 100vh;
+    width:109%;
+    height: auto;
+    scroll-margin-left: none;
   }
+}
+@media (max-width:431px){
+   .App{
+    width:117%;
+    /* height: auto; */
+   }
+
 }
