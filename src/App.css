@@ -11,7 +11,7 @@ h1{
 
 @media (max-width:550px){
   .App{
-    width:73vh ;
+    width:115% ;
     min-height: 100vh;
   }
 }
