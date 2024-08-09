@@ -1,0 +1,33 @@
+.transactions{
+    width:58%;
+    height: 100%;
+    border: 1px solid paleturquoise;
+}
+.expenseList{
+    border: 1px solid red;
+    /* max-height: 70%; */
+    overflow: auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    height: 85%;
+}
+#heading{
+    text-align: start;
+    margin-top: .3rem;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-style:italic;
+    color: #FFFFFF;
+}
+@media(max-width:950px){
+    .transactions{
+        width:100%;
+        
+       
+    }
+    .expenseList{
+        height: 300px;
+        overflow: auto;
+    }
+    
+}
