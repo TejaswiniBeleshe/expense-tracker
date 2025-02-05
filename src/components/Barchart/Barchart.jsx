@@ -37,7 +37,7 @@ export default function Barchart() {
   let {catPrice} = useContext(context)
   return (
     <BarChart
-      width={417}
+      width={380}
       height={250}
      
       data={catPrice}

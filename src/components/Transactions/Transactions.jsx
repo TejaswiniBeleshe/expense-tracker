@@ -18,8 +18,6 @@ const Transactions = ()=>{
             setCurrentPage(currentPage+1)
         }
     }
-
-
     const handleLeft = ()=>{
      if(currentPage > 1){
             setCurrentPage(currentPage-1)

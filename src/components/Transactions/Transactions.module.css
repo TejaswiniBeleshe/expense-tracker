@@ -9,6 +9,7 @@
     /* overflow: auto; */
     /* background-color: #ffffff; */
     max-height: 50%;
+    position: relative;
 }
 .wrap{
     background-color: #FFFFFF;
@@ -26,10 +27,14 @@
 }
 .pagination{
     /* border: 1px solid greenyellow; */
+    border: 1px solid red;
     width: 30%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    bottom: 4.5rem;
+    left: 16rem;
 }
 #page{
     padding:.5rem .8rem;

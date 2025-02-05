@@ -41,12 +41,12 @@ const renderCustomizedLabel = ({
 export default function Piechart() {
   let {categories} = useContext(context);
   return (
-    <PieChart  width={300} height={200} margin={{ top:-95, right: 5, bottom: 0, left: -30}} >
+    <PieChart width={300} height={200} margin={{ top:-95, right: 5, bottom: 0, left: -30}} >
       <Legend/>
       <Pie
         data={categories}
         cx={200}
-        cy={200}
+        cy={190}
         labelLine={false}
         label={renderCustomizedLabel}
         outerRadius={80}

@@ -33,8 +33,8 @@ const EachList = ({ele,setListId,setAllData})=>{
     return(
         <>
         <div className={styles.childContainer} id={ele.id}>
-            <div className={styles.child1}>
-                <div className={styles.icon}>
+            <div className={styles.child1} style={{marginTop:"5px"}}>
+                <div className={styles.icon} >
                     {icon}  
                 </div>
                 <div className={styles.info}>
@@ -47,15 +47,15 @@ const EachList = ({ele,setListId,setAllData})=>{
                 &#x20B9;{ele.price}
                 </div>
                 <div className={styles.edit} onClick={()=>handle(ele.id)}>
-                    <FiEdit2 size={35} style={{color:"whitesmoke"}}/>
+                    <FiEdit2 size={30} style={{color:"whitesmoke"}}/>
                 </div>
                 <div className={styles.delete} onClick={()=>handleDelete(ele.id)}> 
-                   <TiDelete size={35} style={{color:"whitesmoke"}} />
+                   <TiDelete size={30} style={{color:"whitesmoke"}} />
                 </div>
             </div>
         </div>
         <hr />
-        {state&&<Modal handle={handle} itemId={ele.id} headline="Edit Expenses" />}
+        {state&& <Modal handle={handle} itemId={ele.id} headline="Edit Expenses" />}
         </>
     )
 }
